@@ -1,4 +1,4 @@
-# Wikiscraper
+# 🕷️ Wikiscraper
 
 Web scraping simples feito em Python utilizando as libs **requests** enviando uma requisição GET para a URL do Wikipédia onde fiz a raspagem e **Beautiful Soup** para seleção e formatação do html de dois parágrafos do seguinte artigo:
 
@@ -26,20 +26,32 @@ https://www.python.org/ftp/python/3.11.1/python-3.11.1-macos11.pkg
 ## Configurando o ambiente virtual
 * No seu terminal, navegue até a pasta raiz do projeto e execute o seguinte comando para criar um ambiente virtual:
 
-  <code>python -m venv nome_da_virtualenv</code> (exemplo: venv)
+  ```bash
+  python -m venv nome_da_virtualenv
+  ```
 
 * Rode o comando de acordo com seu sistema para ativar seu ambiente virtual:
 
-  <code>.\nome_da_virtualenv\Scripts\activate</code> (Windows)
+  **Windows**
+  ```bash
+  .\nome_da_virtualenv\Scripts\activate
+  ```
 
-  <code>source nome_da_virtualenv/bin/activate</code> (Linux ou macOS)
+  **Linux ou macOS**
+  ```bash
+  source nome_da_virtualenv/bin/activate
+  ``` 
 
 ## Instalando as dependências
 * Com o ambiente virtual **ativado**, instale as dependências do projeto com o seguinte comando:
 
-  <code>pip install -r requirements.txt</code>
+   ```bash
+  pip install -r requirements.txt
+  ```
 
 ## Executando o web scraping
 * Execute o arquivo principal conforme abaixo:
 
-  <code>python wikiscraper.py</code>
+  ```bash
+  python wikiscraper.py
+  ```
