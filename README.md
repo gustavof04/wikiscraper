@@ -2,6 +2,8 @@
 
 Web scraping simples feito em Python utilizando as libs **requests** enviando uma requisição GET para a URL do Wikipédia onde fiz a raspagem e **Beautiful Soup** para seleção e formatação do html de dois parágrafos do seguinte artigo:
 
+> Status do Projeto: ✔️ (concluído)
+
 https://pt.wikipedia.org/wiki/Python
 
 Os parágrafos apresentam:
