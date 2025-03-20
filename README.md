@@ -1,21 +1,21 @@
 # 🕷️ Wikiscraper
 
-Web scraping simples feito em Python utilizando as libs **requests** enviando uma requisição GET para a URL do Wikipédia onde fiz a raspagem e **Beautiful Soup** para seleção e formatação do html de dois parágrafos do seguinte artigo:
+Simple web scraping done in Python using the **requests** library to send a GET request to the Wikipedia URL where I performed the scraping, and **Beautiful Soup** for selecting and formatting the HTML of two paragraphs from the following article:
 
-> Status do Projeto: ✔️ (concluído)
+> Project Status: ✔️ (completed)
 
 https://pt.wikipedia.org/wiki/Python
 
-Os parágrafos apresentam:
-* O que é a linguagem Python;
-* Origem do nome da linguagem Python.
+The paragraphs present:
+* What the Python language is;
+* The origin of the Python language name.
 
-O Wikiscraper cria um arquivo .txt assim que é executado, exibindo os dois parágrafos formatados com padrão utf-8 e duas funções com regex para melhor leitura.
+Wikiscraper creates a .txt file as soon as it is executed, displaying the two paragraphs formatted with utf-8 standard and two functions with regex for better readability.
 
-## Tecnologias utilizadas
+## Technologies used
 Python V.: 3.11.1 || Beautiful Soup 4 V.: 4.12.2 || requests V.: 2.31.0
 
-OBS.: É obrigatória a instalação manual do Python na versão citada acima para ser possível a criação do ambiente virtual e instalação das dependências do projeto.
+NOTE: Manual installation of Python in the version mentioned above is required to create the virtual environment and install the project dependencies.
 
 - Windows 8+
 
@@ -25,34 +25,34 @@ https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe
 
 https://www.python.org/ftp/python/3.11.1/python-3.11.1-macos11.pkg
 
-## Configurando o ambiente virtual
-* No seu terminal, navegue até a pasta raiz do projeto e execute o seguinte comando para criar um ambiente virtual:
+## Setting up the virtual environment
+* In your terminal, navigate to the project's root folder and run the following command to create a virtual environment:
 
   ```bash
-  python -m venv nome_da_virtualenv
+  python -m venv name_of_virtualenv
   ```
 
-* Rode o comando de acordo com seu sistema para ativar seu ambiente virtual:
+* Run the command according to your system to activate your virtual environment:
 
   **Windows**
   ```bash
-  .\nome_da_virtualenv\Scripts\activate
+  .\name_of_virtualenv\Scripts\activate
   ```
 
-  **Linux ou macOS**
+  **Linux or macOS**
   ```bash
-  source nome_da_virtualenv/bin/activate
+  source name_of_virtualenv/bin/activate
   ``` 
 
-## Instalando as dependências
-* Com o ambiente virtual **ativado**, instale as dependências do projeto com o seguinte comando:
+## Installing dependencies
+* With the virtual environment **activated**, install the project dependencies with the following command:
 
    ```bash
   pip install -r requirements.txt
   ```
 
-## Executando o web scraping
-* Execute o arquivo principal conforme abaixo:
+## Running the web scraping
+* Execute the main file as follows:
 
   ```bash
   python wikiscraper.py
